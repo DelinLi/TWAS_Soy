@@ -21,7 +21,7 @@ This is aimed to show the three types transcriptome-wide association study (TWAS
 Requirements to run the analyses:
 
 - **Data** 
-  It will come soon! We will relase the data via FigShare after the first revision of our manuscript.
+  The reads counts for gene and coding exon, expression weights required by FUSION, summary level data required by SMR, and pod color TWAS with three methods are available on [FigShare](https://figshare.com/s/811b3ef0dfc6cba0a167). 
   
   ```
   unzip xxxx.zip
