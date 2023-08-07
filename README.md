@@ -7,9 +7,9 @@
 This is aimed to show the three types transcriptome-wide association study (TWAS) in our publication, and give instructions on how to integrate our **soybean SeedlingShoot eQTLs** into your own GWAS.
 
 - [Prerequisites](#prerequisites)
-- [TWAS using measured expression](#twas--measuredexpression)
-- [TWAS using imputed expression -- FUSION](#twas--fusion)
-- [TWAS using mendelian randomization -- SMR](#twas--smr)
+- [TWAS using measured expression](#twas----measured-expression)
+- [TWAS using imputed expression -- FUSION](#twas----fusion)
+- [TWAS using mendelian randomization -- SMR](#twas----smr)
 - [FAQ](#faq)   
 - [Citation](#citation)
 - [Acknowledgments](#acknowledgments)
