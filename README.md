@@ -2,8 +2,6 @@
 
 ---
 
-
-
 This is aimed to show the three types transcriptome-wide association study (TWAS) in our publication, and give instructions on how to integrate our **soybean SeedlingShoot eQTLs** into your own GWAS.
 
 - [Prerequisites](#prerequisites)
@@ -22,25 +20,25 @@ Requirements to run the analyses:
 
 - **Data**
   The reads counts for gene and coding exon, expression weights required by FUSION, summary level data required by SMR, and pod color TWAS with three methods are available on [FigShare](https://figshare.com/s/811b3ef0dfc6cba0a167).
-
+  
   ```
   unzip xxxx.zip
   #readme.txt gave description on the files.
   ```
 
 - **TWAS -- Measured Expression**
-
+  
   - [R](https://www.r-project.org/)
-
+  
   - [Rstudio](https://www.rstudio.com/) (R editor, recommended but not required)
-
+  
   - R packages:
-
+    
     ```
     #installation of GAPIT -- solution I
     source("http://zzlab.net/GAPIT/GAPIT.library.R")
     source("http://zzlab.net/GAPIT/gapit_functions.txt")
-
+    
     #installation of GAPIT -- solution II
     install.packages("devtools")
     devtools::install_github("jiabowang/GAPIT3",force=TRUE)
@@ -48,17 +46,17 @@ Requirements to run the analyses:
     ```
 
 - **TWAS -- SMR** by **[Yang Lab](https://yanglab.westlake.edu.cn)**
-
+  
   - [SMR](https://yanglab.westlake.edu.cn/software/smr/#Download)
 
 - **TWAS -- Fusion** by **[Gusev Lab](http://gusevlab.org/projects/fusion/)**
-
+  
   - [R](https://www.r-project.org/)
-
+  
   - [Rstudio](https://www.rstudio.com/) (R editor, recommended but not required)
-
+  
   - R packages:
-
+    
     ```
     #plink2R
     wget https://github.com/gabraham/plink2R/archive/master.zip
@@ -196,18 +194,18 @@ Welcome any question to make TWAS easily accessible for the plant community.
 
 -------
 
-1. If you use the data of this respository, please cite our **preprint**:
-   [Li D, Wang Q, Tian Y  *et al.* Transcriptome brings variations of gene expression, alternative splicing, and structural variations into gene-scale trait dissection in soybean. bioRxiv. 2023:2023-07.](https://doi.org/10.1101/2023.07.03.545230)
+1. If you use the data of this respository, please cite our **paper**:
+   [Li D., Wang Q., Tian Y.  *et al.* (2024) TWAS facilitates gene-scale trait genetic dissection through gene expression, structural variations, and alternative splicing in soybean. *Plant Communications*, *5*(10).](https://doi.org/10.1016/j.xplc.2024.101010)
 
 2. The first soybean TWAS using meaured expression data, had conclusion that TWAS is roubust with source of expression data:
    [Delin Li, Qiang Liu, Patrick S Schnable. TWAS results are complementary to and less affected by linkage disequilibrium than GWAS, Plant Physiology, Volume 186, Issue 4, August 2021, Pages 1800–1811, https://doi.org/10.1093/plphys/kiab161](https://academic.oup.com/plphys/article/186/4/1800/6212071)
 
 3. Citation for software and method of **SMR**:
-
+   
    [Zhu, Z., Zhang, F., Hu, H. *et al.* Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets. *Nat Genet* 48, 481–487 (2016). https://doi.org/10.1038/ng.3538](https://www.nature.com/articles/ng.3538)
 
 4. Citation for script and method of **Fusion** :
-
+   
    [Gusev, A., Ko, A., Shi, H. *et al.* Integrative approaches for large-scale transcriptome-wide association studies. *Nat Genet* 48, 245–252 (2016). https://doi.org/10.1038/ng.3506](https://www.nature.com/articles/ng.3506)
 
 ## Acknowledgments
